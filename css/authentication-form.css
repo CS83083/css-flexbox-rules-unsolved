@@ -153,9 +153,10 @@ select {
 
 .form-submit-control {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 20px;
+  gap: 10px;
 }
 
 hr {
