@@ -65,15 +65,15 @@ Acceptance criteria:
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
-- [ ] Maintain a 6px distance between the label and the input.
-- [ ] Keep a 30px distance between each row.
-- [ ] Bolden label text when paired with a text or text-like input field.
-- [ ] Avoid bold formatting for labels paired with checkboxes and radios.
-- [ ] Utilize a paragraph element if the label element can't be used.
-- [ ] Ensure inputs span the full width available within the parent.
-- [ ] Set the height of inputs with text-like values to 30px.
-- [ ] Set the height of dropdown elements to 30px.
+- [x] Wrap each group of a label and input elements with a container representing a row.
+- [x] Maintain a 6px distance between the label and the input.
+- [x] Keep a 30px distance between each row.
+- [x] Bolden label text when paired with a text or text-like input field.
+- [x] Avoid bold formatting for labels paired with checkboxes and radios.
+- [x] Utilize a paragraph element if the label element can't be used.
+- [x] Ensure inputs span the full width available within the parent.
+- [x] Set the height of inputs with text-like values to 30px.
+- [x] Set the height of dropdown elements to 30px.
 
 For the "Sign In form":
 
@@ -126,14 +126,14 @@ For the "Sign Up Form"
 
 Acceptance criteria:
 
-- [ ] Edit the following files:
-  - [ ] css: `/css/ecommerce-page.css`
-- [ ] Ensure the layout closely mirrors the mockup.
-- [ ] Refrain from using the margin CSS rule to specify distances between elements.
-- [ ] Positioning is prohibited.
-- [ ] When switching between views, display a different product list view.
-- [ ] The HTML file should remain unchanged; no updates or modifications are allowed.
-- [ ] The permitted list of CSS rules to add to the styles file is as follows:
+- [x] Edit the following files:
+  - [x] css: `/css/ecommerce-page.css`
+- [x] Ensure the layout closely mirrors the mockup.
+- [x] Refrain from using the margin CSS rule to specify distances between elements.
+- [x] Positioning is prohibited.
+- [x] When switching between views, display a different product list view.
+- [x] The HTML file should remain unchanged; no updates or modifications are allowed.
+- [x] The permitted list of CSS rules to add to the styles file is as follows:
   - `border-*`
   - `padding-*`
   - width
