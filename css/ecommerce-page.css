@@ -235,6 +235,7 @@ i.fa-th-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  flex-grow: 1
 }
 
 .grid .product-action {
@@ -273,14 +274,14 @@ i.fa-th-list {
 .lines .product-info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .lines .product-action {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 10px;
   align-items: center;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* LINES-ACTION VIEW */
@@ -320,6 +321,7 @@ i.fa-th-list {
   min-width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;           /* ← Changed from flex-end to center */
+  gap: 15px;                     /* ← Changed from 5px to 15px */
 }
