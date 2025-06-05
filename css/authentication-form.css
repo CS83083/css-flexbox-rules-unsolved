@@ -67,6 +67,10 @@ input {
   border-radius: 4px;
 }
 
+input[type="file"] {
+  border: none;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   width: max-content;
@@ -137,6 +141,7 @@ select {
 
 .form-group-horizontal-control .form-input-control {
   padding-bottom: 0;
+  flex: 1;
 }
 
 .form-group-vertical-control {
